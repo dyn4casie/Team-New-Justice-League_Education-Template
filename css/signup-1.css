@@ -21,7 +21,7 @@ body {
 /* Shaydee, please work on the image in this div called ".my-section1" */
 
 .my-section1 {
-    background: url(../img/Rectangle-2.png) #C4C4C4 no-repeat center center;
+    background: url(../img/image12.png) #C4C4C4 no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -71,22 +71,12 @@ body {
 }
 
 
-/* footer */
-
-
-/* footer{
-	background-color: #1652f0;
-	height:auto;
-	color: white;
-} */
-
-
 /* MEDIA QUERIES & RESPONSIVENESS */
 
 
 /* Extra small devices (phones, 600px and down) */
 
-@media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 375px) {
     .my-section1 {
         height: 300px;
     }
@@ -101,8 +91,6 @@ body {
         right: 60px;
     }
 }
-
-
 /* Medium devices (laptops/tablets, 992px and up) */
 
 @media only screen and (max-width: 685px) {
@@ -123,4 +111,4 @@ body {
         left: 500px;
         padding: 10px 20px 10px 20px;
     }
-}
+} */

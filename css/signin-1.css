@@ -18,7 +18,7 @@ body {
 }
 
 .my-section1 {
-    background: url(../img/Rectangle-2.png) #C4C4C4 no-repeat center center;
+    background: #C4C4C4 no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
