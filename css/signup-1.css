@@ -1,3 +1,11 @@
+.navbar .navbar-brand {
+    font-size: 30px;
+}
+
+img.img-fluid {
+    max-width: 70%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -17,8 +25,6 @@ body {
     display: flex;
 }
 
-
-/* Shaydee, please work on the image in this div called ".my-section1" */
 
 .my-section1 {
     background: url(../img/image12.png) #C4C4C4 no-repeat center center;
@@ -76,19 +82,33 @@ body {
 
 /* Extra small devices (phones, 600px and down) */
 
-/* @media only screen and (max-width: 375px) {
+ @media only screen and (max-width: 375px) {
     .my-section1 {
+        flex: auto;
         height: 300px;
+        justify-content: space-around;
+        margin-bottom: auto;
     }
     .my-section2 {
+        flex: auto;
         left: 0px;
         top: 400px;
         padding: 10px 20px 10px 20px;
-        align-items: center;
+        justify-content: space-around;
+        margin-top: auto;
     }
+
     .google-img {
         position: relative;
         right: 60px;
+    }
+
+    .navbar .navbar-brand {
+    font-size: 30px;
+    }
+
+    img.img-fluid {
+    max-width: 70%;
     }
 }
 /* Medium devices (laptops/tablets, 992px and up) */
@@ -101,6 +121,14 @@ body {
         left: 0px;
         padding: 10px 20px 10px 20px;
     }
+
+    .navbar .navbar-brand {
+    font-size: 30px;
+    }
+
+    img.img-fluid {
+    max-width: 70%;
+    }
 }
 
 
@@ -111,4 +139,4 @@ body {
         left: 500px;
         padding: 10px 20px 10px 20px;
     }
-} */
+}
